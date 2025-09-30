@@ -1,0 +1,177 @@
+/* Fonts added  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Body background design */
+body{
+    margin: 0;
+    background-image: url("../assets/bg.png");
+}
+/* Total Header Section */
+.headers{
+    /* width: 1440px;
+    margin: 0 auto; */
+}
+
+/* Navigation bar  */
+.main-nav{
+        max-width: 1440px;
+        margin: 1.25rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.menu-icon{
+    display: none;
+}
+.nav-title{
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.9rem;
+}
+.nav-2{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+
+}
+.list-items{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+}
+.li-1{
+    color: #fea301;
+}
+.li-2{
+    color: #01ACFD;
+}
+.li-3{
+    color: #05D4DF;
+}
+.li-4{
+    color: #5D58EF;
+}
+.list-items a{
+    text-decoration: none;
+}
+.btn-button{
+    background-color: #FEA301;
+    padding: 0.65rem 0.65rem;
+    border-radius: 12px;
+    border: none;
+    width: 197px;
+    height: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3.8rem;
+}
+.hero-main{
+    /* flex: 1; */
+    /* border: 1px solid red; */
+    width: 60%;
+
+}
+.hero-title{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+    margin-bottom: 1.5rem;
+    /* width: 60%; */
+}
+.d1{
+    color: orange;
+}
+.d2{
+    color: #01ACFD;
+}
+.hero-description{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 75%;
+    margin-bottom: 1.5rem;
+}
+.hero-img{
+    /* flex: 1; */
+}
+.hero-img img{
+    width: 100%;
+}
+.hero-btn{
+    background-color: black;
+    padding: 0.65rem 0.65rem;
+    border-radius: 12px;
+    border: none;
+    width: 197px;
+    height: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+/* Mobile Responsive are From there  */
+@media screen and (max-width: 576px) {
+    /* navigation bar  */
+    .nav-2, .btn-button, .nav-title {
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        weight: 1.9rem;
+        height: 1.9rem;
+    }
+    .main-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 390px;
+        margin: 20px auto;
+    }
+
+    /* Hero Section */
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero-main{
+        width: 100%;
+        text-align: center;
+    }
+    .hero-description{
+        width: 100%;
+    }
+    
+
+}
+
+
