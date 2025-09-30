@@ -81,6 +81,9 @@ body{
     color: #FFFFFF;
     cursor: pointer;
 }
+hr{
+    display: none;
+}
 
 /* Hero Section */
 .hero{
@@ -158,6 +161,10 @@ body{
         max-width: 390px;
         margin: 20px auto;
     }
+    hr{
+        display: block;
+        border-top: 1px solid rgba(254, 163, 1, 0.5);
+    }
 
     /* Hero Section */
     .hero{
@@ -170,7 +177,9 @@ body{
     .hero-description{
         width: 100%;
     }
-    
+    .hero-title{
+    font-size: 3.3rem;
+    }
 
 }
 
