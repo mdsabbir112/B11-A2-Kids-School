@@ -143,6 +143,124 @@ hr{
     
 }
 
+/* Card Section */
+.card{}
+.card-main-title{
+    width: 470px;
+    height: 58px;
+    margin: 0 auto;
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.9rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+}
+.main-card{
+    width: 1161px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.card-content{
+    width: 368px;
+    height: 477px;
+    border-radius: 1.2rem;
+    box-shadow: 4px 4px 10px gray;
+}
+.card-content img{
+    /* width: 100%; */
+}
+
+.card-inside-1{
+    margin-top: 2.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-inside{
+    margin-top: 3.35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .card-title-1{
+    margin-top: 1rem;
+    font-size: 1.55rem;
+    font-weight: 700;
+    line-height: 1.93rem;
+    color: #202020;
+} */
+
+.card-title{
+    margin-top: 2.30rem;
+    font-size: 1.55rem;
+    font-weight: 700;
+    line-height: 1.93rem;
+    color: #202020;
+    margin-bottom: 0rem;
+}
+.card-description{
+    /* margin-top: 2.1rem; */
+    text-align: center;
+    font-size: 0.98rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    color: #808080;
+
+}
+.btn-card{
+    margin-top: 2.1rem;
+    width: 103px;
+    height: 28.5px;
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+.c1{
+    color: #64C8FF;
+}
+.c2{
+    color: #F0AA00;
+}
+.c3{
+    color: #8700FF;
+}
+
+/* point section */
+.point{
+    max-width: 140px;
+    margin: 0 auto;
+    height: 60px;
+    /* display: flex; */
+    
+}
+
+.point{
+    display: flex;
+    gap:1.65rem;
+    justify-content: center;
+    align-items: center;
+}
+.point-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: orange;
+    color: white;
+}
+
+
+
 /* Mobile Responsive are From there  */
 @media screen and (max-width: 576px) {
     /* navigation bar  */
